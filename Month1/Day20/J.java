@@ -50,21 +50,21 @@ import java.util.*;
 //     }
 // }
 
-public class J{
-  static class Book implements Comparable<Book>{
-    int price;
-    Book(int price){
-      this.price=price;
-    }
-    public int compareTo(Book other){
-        return this.price-other.price;
-    }
-    }
-    public static void main(String[]args){
-        Book b1=new Book(500);
-        Book b2=new Book(300);
-        Book b3=new Book(800);
-        System.out.println(b1.compareTo(b2));
-        System.out.println(b2.compareTo(b3));
-          }
-}  
+// public class J{
+//   static class Book implements Comparable<Book>{
+//     int price;
+//     Book(int price){
+//       this.price=price;
+//     }
+//     public int compareTo(Book other){
+//         return this.price-other.price;
+//     }
+//     }
+//     public static void main(String[]args){
+//         Book b1=new Book(500);
+//         Book b2=new Book(300);
+//         Book b3=new Book(800);
+//         System.out.println(b1.compareTo(b2));
+//         System.out.println(b2.compareTo(b3));
+//           }
+// }
