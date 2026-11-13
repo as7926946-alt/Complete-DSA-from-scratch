@@ -87,6 +87,8 @@ public class J{
         for(int i=0;i<size;i++){
                arr[i]=sc.nextInt();
         }
-        
     }
 }
+ public class J{
+    public static void main(Sta)
+ }
